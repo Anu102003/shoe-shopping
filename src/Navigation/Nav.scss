@@ -1,0 +1,44 @@
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav-card {
+    height: 100%;
+    display: flex;
+    border-bottom: 2px solid #f3f3f3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-left: 2rem;
+
+
+    &__search>input {
+        padding: 12px 20px;
+        border: none;
+        background: #efeeeee3;
+        outline: none;
+        margin-right: 20px;
+        border-radius: 5px;
+        width: 15rem;
+        height: 3rem;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    &__search>input:hover {
+        background-color: #fffffff4;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+
+    .nav-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .nav-icon:hover {
+        color: purple;
+    }
+}
